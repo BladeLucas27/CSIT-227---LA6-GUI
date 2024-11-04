@@ -13,6 +13,11 @@ public class SimpleCalculator extends JFrame{
     private JPanel pMain;
 
     SimpleCalculator(){
+        tfNumber1.setName("tfNumber1");
+        tfNumber2.setName("tfNumber2");
+        cbOperations.setName("cbOperations");
+        btnCompute.setName("btnCompute");
+        lblResult.setName("lblResult");
         btnCompute.addActionListener(e -> {
             String a = tfNumber1.getText();
             int num1 = Integer.valueOf(a);

@@ -23,7 +23,12 @@ public class FoodOrderingSystem extends JFrame{
     FoodOrderingSystem(){
         JRadioButton[] rbDisc = {rbNone, rb5, rb10, rb15};
         JCheckBox[] cbFood = {cPizza, cBurger, cFries, cSoftDrinks, cTea, cSundae};
-
+        cPizza.setName("cPizza");
+        cBurger.setName("cBurger");
+        cFries.setName("cFries");
+        cSoftDrinks.setName("cSoftDrinks");
+        cTea.setName("cTea");
+        cSundae.setName("cSundae");
 
         btnOrder.addActionListener(new ActionListener() {
             @Override

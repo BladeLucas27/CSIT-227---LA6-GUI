@@ -16,25 +16,11 @@ public class ItemListener extends JFrame{
     private JLabel proficiencyLevel;
 
     ItemListener(){
-        /*
-        JCheckBox[] cbLanguages = {cCheckBox,cppCheckBox,cSharpCheckBox,javaCheckBox,pythonCheckBox};
         cCheckBox.setName("cCheckBox");
         cppCheckBox.setName("cppCheckBox");
         cSharpCheckBox.setName("cSharpCheckBox");
         javaCheckBox.setName("javaCheckBox");
         pythonCheckBox.setName("pythonCheckBox");
-        String languages = null;
-        cCheckBox.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String lang;
-                if(cCheckBox.isSelected()){
-                    lang = "C, ";
-                }
-                //languages = languages + lang;
-            }
-        });
-         */
         ActionListener listener = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
